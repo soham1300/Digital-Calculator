@@ -1,0 +1,149 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    
+}
+.outer_layer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.cal
+{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+.histBtn
+{
+    float: right;
+    margin-top: -45px;
+    margin-right: 10px;
+    font-size: 25px;
+    color: white;
+}
+.histBtn:hover
+{
+    color: gray;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(20, 19, 19);
+    border-radius: 25px;
+}
+.inpad
+{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.keys
+{
+    padding-top: 15px;
+}
+.disp_hist{
+    border-bottom: none;
+    text-align: right;
+    outline: none;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    height: 40px;
+    width: 280px;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(32, 31, 31);
+    border-color: rgb(47, 51, 50);
+}
+.output{
+    border-top: none;
+    text-align: right;
+    outline: none;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    height: 70px;
+    width: 280px;
+    font-size: 40px; 
+    color: white;
+    background-color: rgb(32, 31, 31);
+    border-color: rgb(47, 51, 50);
+}
+.btn{
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    margin: 8px 4px;
+    background-color: rgb(47, 51, 50);
+    color: white;
+    border: none;
+    font-size: 20px;
+}
+.btn1{
+    height: 60px;
+    width: 60px;
+    background-color: rgb(12, 12, 12);
+    border-radius: 50px;
+    color: white;
+    border: none;
+    font-size: 20px;
+    border-radius: 50px;
+    margin: 8px 4px;
+}
+.btn1:hover
+{
+    background-color: rgb(15, 15, 15);
+}
+.btn2{
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    margin: 8px 4px;
+    background-color: rgb(209, 143, 0);
+    color: white;
+    border: none;
+    font-size: 20px;
+}
+.btn:hover
+{
+    background-color: rgb(101, 101, 101);
+}
+.history
+{
+    display: none;
+    height: 400px;
+    width: 282px;
+}
+.row6
+{
+    padding-bottom: 12px;
+}
+.hisHead
+{
+    background-color: rgb(32, 31, 31);
+    color: white;
+}
+.hisHead a
+{
+    float: right;
+    margin-top: -40px;
+    font-size: 20px;
+    color: white;
+}
+.hisHead a :hover
+{
+    color: gray;
+}
+.hist_data
+{
+    overflow: auto;
+    width: 282px;
+    height: 350px;
+}
+.historyDiv
+{
+    border-bottom: 2px solid white;
+    text-align: left;
+}
+

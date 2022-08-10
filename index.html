@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/51c96d909a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="outer_layer">
+        <div class="container">
+            <div class="inpad">
+                <div class="head">
+                    <h1 class="cal">CALCULATOR</h1>
+                    <a href="#"><i class="fa-solid fa-clock-rotate-left histBtn" onclick="showHistory()"></i></a>
+                </div>
+                <div class="row1">
+                    <input type="text" value="" class="disp_hist" readonly>
+                    <br>
+                    <input type="text" value="0" class="output">
+                </div>
+
+                <div class="history">
+                    <div class="hisHead">
+                        <h3>History</h3>
+                        <a href="#"><i class="fa-solid fa-trash-can" onclick="deleteHistory()"></i></a>
+                    </div>
+                    <div class="hist_data">
+
+                    </div>
+                </div>
+
+                <div class="keys">
+                    <div class="row2">
+                        <input type="button" value="AC" class="btn1" onclick="reset()">
+                        <input type="button" value="CLR" class="btn1" onclick="backSpace()">
+                        <input type="button" value="^" class="btn1" onclick="input('**')">
+                        <input type="button" value="/" class="btn1" onclick="input('*')">
+                    </div>
+                    <div class="row3">
+                        <input type="button" value="7" class="btn" onclick="input('7')">
+                        <input type="button" value="8" class="btn" onclick="input('8')">
+                        <input type="button" value="9" class="btn" onclick="input('9')">
+                        <input type="button" value="*" class="btn1" onclick="input('*')">
+                    </div>
+                    <div class="row4">
+                        <input type="button" value="4" class="btn" onclick="input('4')">
+                        <input type="button" value="5" class="btn" onclick="input('5')">
+                        <input type="button" value="6" class="btn" onclick="input('6')">
+                        <input type="button" value="-" class="btn1" onclick="input('-')">
+                    </div>
+                    <div class="row5">
+                        <input type="button" value="3" class="btn" onclick="input('3')">
+                        <input type="button" value="2" class="btn" onclick="input('2')">
+                        <input type="button" value="1" class="btn" onclick="input('1')">
+                        <input type="button" value="+" class="btn1" onclick="input('+')">
+                    </div>
+                    <div class="row6">
+                        <input type="button" value="0" class="btn" onclick="input('0')">
+                        <input type="button" value="00" class="btn" onclick="input('00')">
+                        <input type="button" value="." class="btn" onclick="input('.')">
+                        <input type="button" value="=" class="btn2" onclick="ans()">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+</html>
